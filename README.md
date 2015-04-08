@@ -4,8 +4,11 @@ An API to convert text to speech
 ## Required Programs ##
 
 git
+
 node.js
+
 npm
+
 gulp
 
 ## Installation ##
@@ -17,4 +20,6 @@ gulp
 
 ## Usage ##
   
-  node dist/app.js
+  	node dist/app.js
+	
+	then go to localhost:8080/?q=text
