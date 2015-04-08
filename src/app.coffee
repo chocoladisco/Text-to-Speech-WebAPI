@@ -8,7 +8,7 @@ app = express()
 app.listen config.port
 
 app.get '/' , (req, res) ->
-	path = __dirname + '/files/'
+	path = __dirname 
 	filename = randomstring();
 	festival.toSpeech req.query.q, path + filename, (err) ->
 		res.sendFile path + filename, (err) ->
