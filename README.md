@@ -13,7 +13,7 @@ gulp
 
 ## Installation ##
 
-	git clone https://github.com/chocoladisco/ttsAPI.git
+	git clone https://github.com/chocoladisco/Text-to-Speech-WebAPI.git
 	cd ttsAPI
 	npm install
 	gulp
